@@ -1,6 +1,6 @@
 doctrine:
     dbal:
-        driver: sqlsrv
+        driver: pdo_mysql
         host: 'mysql-server-azure.database.windows.net'
         port: '1433'
         dbname: 'mysql'
